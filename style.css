@@ -19,6 +19,7 @@ h1 {
     width: 512px;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 13px;
 }
 
 .colors {
