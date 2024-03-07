@@ -1,4 +1,5 @@
 const container = document.querySelector('.container');
+const resetBtn = document.querySelector('.reset')
 
 function getGrid() {
     let num = 16;
@@ -13,6 +14,13 @@ function getGrid() {
                 colors.setAttribute('class', 'color-changed');
             }
             colors.addEventListener('mouseover', changeColor);
+
+            function resetColor() {
+                colors.removeAttribute('class', 'color-changed')
+                colors.setAttribute('class', 'colors')
+            }
+
+            resetBtn.addEventListener('click', resetColor);
         }
     }
 }
