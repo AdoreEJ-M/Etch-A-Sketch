@@ -3,6 +3,13 @@
     text-align: center;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 h1 {
     margin-bottom: 50px;
 }
@@ -16,6 +23,13 @@ h1 {
 
 .colors {
     background-color: white;
+    border: 1px solid black;
+    height: 32px;
+    width: 32px;
+}
+
+.color-changed {
+    background-color: blue;
     border: 1px solid black;
     height: 32px;
     width: 32px;
