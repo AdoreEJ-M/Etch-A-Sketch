@@ -1,6 +1,22 @@
 * {
-    height: 100vh;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 50px;
+}
+
+.container {
+    height: 512px;
+    width: 512px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
+}
+
+.colors {
+    background-color: white;
+    border: 1px solid black;
+    height: 32px;
+    width: 32px;
 }
